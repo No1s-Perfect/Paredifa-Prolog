@@ -1,0 +1,6 @@
+ docker build -t my-prolog-app .
+ docker run -p 9000:9000 -it my-prolog-app
+
+
+https://gitlab.com/matteoredaelli/prolog-http-server-docker/-/blob/master/Dockerfile?ref_type=heads
+https://swi-prolog.discourse.group/t/starting-prolog-http-server-trough-docker/1537
